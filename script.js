@@ -25,9 +25,7 @@ window.addEventListener('load', function() {
     if (window.location.pathname === '/index.html') {
       // Convert the Markdown content to HTML
       convertMarkdownToHTML("index.md");
-    }
-
-    if (this.window.location.pathname === "/modules.html") {
+    } else if (this.window.location.pathname === "/modules.html") {
         convertMarkdownToHTML("modules.md");
     }
   });
