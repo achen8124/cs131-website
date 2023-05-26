@@ -11,4 +11,6 @@
 7. [Module 1.1 Completion](#absenceandextensionforms)
 
 ## Intro and Overview
-Check out this Vimeo video: <iframe src="https://player.vimeo.com/video/450886505" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> 
+Check out this Vimeo video: 
+
+<iframe src="https://player.vimeo.com/video/450886505" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> 

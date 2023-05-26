@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS131 - Programming Languages - Modules</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
-  <title>Module 1: Part 1</title>
 </head>
 
 <body>
@@ -14,52 +13,24 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="modules.html">Modules</a></li>
-      <li><a href="piazza.html">Piazza</a></li>
-      <li><a href="grutoring.html">Grutoring/Office Hours</a></li>
+      <li><a href="#piazza">Piazza</a></li>
+      <li><a href="#grutoring">Grutoring/Office Hours</a></li>
     </ul>
   </div>
 
-  <div id="content">
-    <div class="container">
-      <div class="header" id="header">
-        <h1>Programming Languages</h1>
-        <h2>HMC CS 131, Fall 2023</h2>
-        <hr>
-      </div>
+  <div id="container">
+    <div class="header" id="header">
+      <h1>Programming Languages</h1>
+      <h2>HMC CS 131, Fall 2023</h2>
+      <hr>
+    </div>
 
-      <div class="module">
-        <h2>Module 1: Welcome to Programming Languages</h2>
-        <h3>Part 1: Intro and Overview</h3>
-        <div class="content">
-          <h4>Overview</h4>
-          <p>We are very excited to have you in CS 131 Programming Languages! This is Part 1 of Module 1.1. There actually isn't much here in Part 1 for this Module, but generally, Part 1 of each Module will contain an overview with possibly some short recap, and importantly, links to any slides or materials.</p>
-          <p>In Module 1, we will introduce three important themes for CS131:</p>
-          <ol>
-            <li>Functions are Awesome</li>
-            <li>Programs are Data</li>
-            <li>PLs + people</li>
-          </ol>
-          <p>We'll touch on each of these themes as we go through a little history and context and also tell you a little bit about some of the more fine-grained topics you'll see in CS131.</p>
+    <div id="content">
 
-          <h4>Today's slides</h4>
-          <p>Today's content is available as a shared Google slides presentation. Feel free to make a copy of the slides for yourself on Google Drive, or download the slides for offline viewing. Slides in future lectures will also be available the same way.</p>
-
-          <h4>Collaborative Module Summaries</h4>
-          <p>You can check out the collaborative module summary and add to it if you like. As you go through the Module, adding notes to this document might help those who come after you. Or, you can check out the summary and see what others thought was important.</p>
-
-          <h4>Time Tracking</h4>
-          <p>By the way, at the end of this module, I'll ask you to estimate how long it took you to complete, so keep that in mind as you continue through the next pages.</p>
-          <p>As a heads up, there's about 42 minutes of video broken into several segments and a handful of exercises to complete.</p>
-        </div>
-      </div>
-
-      <button id="next-button" onclick="togglePart2()">Next</button>
-
-      <div class="module hidden" id="part2">
-        <!-- Part 2 content will be revealed here -->
-      </div>
     </div>
   </div>
+  <script src="node_modules/showdown/dist/showdown.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
