@@ -1,34 +1,14 @@
-# Programming Languages - Home
-
-## HMC CS 131, Fall 2023
-
----
-
-- [Home](#header)
-- [Modules](modules.html)
-- [Piazza](#piazza)
-- [Grutoring/Office Hours](#grutoring)
-
----
-
-## Programming Languages
-
-### HMC CS 131, Fall 2023
-
----
-
 ## Table of Contents
 
-- [Welcome to CS 131!](#welcome)
-- [Course Format](#course-format)
-- [Schedule](#schedule)
-- [Piazza](#piazza)
-- [Class Meeting Times](#class-meeting-times)
-- [Grade Estimator](#grade-estimator)
-- [Absence and Extension Forms](#absence-and-extension-forms)
-- [Office Hours and Grutoring Times](#office-hours-grutoring)
+1. [Welcome to CS 131!](#welcometocs131)
+2. [Course Format](#courseformat)
+3. [Schedule](#schedule)
+4. [Piazza](#piazza)
+5. [Class Meeting Times](#classmeetingtimes)
+6. [Grade Estimator](#gradeestimator)
+7. [Absence and Extension Forms](#absenceandextensionforms)
+8. [Office Hours and Grutoring Times](#officehoursandgrutoringtimes)
 
----
 
 ## Welcome to CS 131!
 

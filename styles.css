@@ -35,7 +35,7 @@ body {
   
   
   /* Content Styles */
-  #content {
+  #container {
     margin-left: 240px; /* Adjust the margin to match the width of the sidebar */
     padding: 20px;
     background-color: #fff;
@@ -56,13 +56,13 @@ body {
     margin-bottom: 20px;
   }
   
-  #content h2 {
+  #container h2 {
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 20px;
   }
   
-  #content h3 {
+  #container h3 {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -73,12 +73,12 @@ body {
     margin: 0 auto;
   }
   
-  #content p,
-  #content ul {
+  #container p,
+  #container ul {
     margin-bottom: 20px;
   }
   
-  .container {
+  #content {
     padding: 20px;
     margin: auto 38.35px;
     box-sizing: border-box;

@@ -1,0 +1,16 @@
+### For due dates, please see the course calendar.
+
+1. [Welcome to Programming Languages](module1.html)
+2. [Introduction to Haskell and Functional Programming]()
+3. [Haskell Datatypes]()
+4. [Modules 1-3 Review Problems for Quiz 1]()
+5. [Interpreting Programs Part 1]()
+6. [Interpreting Programs Part 2]()
+7. [Parsing]()
+8. [Modules 4-6 Review Problems for Quiz 2]()
+9. [Functional Abstractions]()
+10. [Type Systems]()
+11. [Lambda Calculus]()
+12. [Modules 8-9 Review for Quiz 3]()
+13. [Critiquing PLs]()
+14. [Projects]()
