@@ -29,5 +29,9 @@ window.addEventListener('load', function() {
         convertMarkdownToHTML("modules.md");
     } else if (this.window.location.pathname === "/module1.html") {
         convertMarkdownToHTML("module1.md");
+    } else if (this.window.location.pathname === "/assignments.html") {
+        convertMarkdownToHTML("assignments.md");
+    } else if (this.window.location.pathname === "/hw1.html") {
+        convertMarkdownToHTML("hw1.md");
     }
   });
