@@ -14,16 +14,16 @@ The goals of this assignment are:
 
 ## HW 1 Checklist
 
-[] Read the syllabus
-[] Let us know about your preferences for grutoring hours
-[] Read an article about the culture of programming languages.
-[] Read the text of a talk by Grace Hopper
-[] Understand the assignment workflow and checkout your copy of the assignment
-[] Respond to syllabus
-[] Respond to the Yang and Rabkin article
-[] Respond to the Hopper talk
-[] Think and write about programming-language design
-[] (Turn in the assignment)
+- [ ] Read the syllabus
+- [ ] Let us know about your preferences for grutoring hours
+- [ ] Read an article about the culture of programming languages.
+- [ ] Read the text of a talk by Grace Hopper
+- [ ] Understand the assignment workflow and checkout your copy of the assignment
+- [ ] Respond to syllabus
+- [ ] Respond to the Yang and Rabkin article
+- [ ] Respond to the Hopper talk
+- [ ] Think and write about programming-language design
+- [ ] (Turn in the assignment)
 
 ## Collaboration
 
