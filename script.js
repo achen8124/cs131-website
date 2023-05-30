@@ -44,7 +44,34 @@ var questions = [
   // Add more answers here...
 ];
 
-function displayMessage(questionIndex) {
-  var messageContainer = document.getElementById("messageContainer" + (questionIndex + 1));
-  messageContainer.textContent = questions[questionIndex];
+function displayMessage(button) {
+  var questionDiv = button.parentNode.parentNode;
+  var answerTextarea = questionDiv.querySelector('.answer');
+  var messageContainer = questionDiv.querySelector('.message');
+
+  // Hide the submit button
+  button.style.display = 'none';
+
+  // Get the response message based on the question
+  var responseMessage = getResponseMessage(questionDiv);
+
+  // Display the message
+  messageContainer.textContent = responseMessage;
+  messageContainer.style.display = 'block';
+
+  // Disable the answer textarea
+  answerTextarea.disabled = true;
+}
+
+function getResponseMessage(questionDiv) {
+  var question = questionDiv.querySelector('p').textContent;
+
+  // Generate the response message based on the question
+  var responseMessage = '';
+
+  if (question.includes('What is a programming language')) {
+    responseMessage = "We are not actually going to provide a definition of a programming language at this point, but you'll have a chance to explore this question more over the course of the semester, in fact, even starting at HW1!";
+  }
+
+  return responseMessage;
 }

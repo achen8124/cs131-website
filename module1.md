@@ -50,7 +50,7 @@ Before we begin, let's check in with the ideas you already have about programmin
     <label for="answer1">Your answer:</label>
     <textarea class="answer" rows="4" cols="50"></textarea>
     <br>
-    <input type="button" value="Submit" onclick="displayMessage(0)">
+    <input type="button" value="Submit" onclick="displayMessage(this)">
   </form>
   <div id="messageContainer1" class="message"></div>
 </div>
